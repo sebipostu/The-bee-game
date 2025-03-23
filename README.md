@@ -14,9 +14,9 @@ Worker or Drone) and do the following damage to it:
 1. queen – 8 damage
 2. worker – 10 damage
 3. drone – 12 damage
+
 When a bee remains without HP, it dies. When the Queen remains without HPs, all swarm members
-die.
-The game user interface must be clear, concise, intuitive and its main elements are:
+die. The game user interface must be clear, concise, intuitive and its main elements are:
 • “Hit” button
 • The player name
 • Alive bees: grouped by type (BONUS: show detailed info about the swarm’s health)
