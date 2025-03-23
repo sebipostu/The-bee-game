@@ -21,8 +21,11 @@ die.
 The game user interface must be clear, concise, intuitive and its main elements are:
 
 • “Hit” button
+
 • The player name
+
 • Alive bees: grouped by type (BONUS: show detailed info about the swarm’s health)
+
 • Which bee type is hit at each click and the damage done
 
 End game
