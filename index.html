@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Bee Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>🐝 The Bee Game 🐝</h1>
+
+    <div id="playerGreeting" class="player-greeting"></div>
+
+    <div class="buttons-and-logs-container">
+      <div class="buttons">
+        <button id="hitButton" class="hit-button">Hit a Bee</button>
+
+        <button id="resetButton" class="reset-button">
+          <span class="reset-icon"></span> Reset Game
+        </button>
+      </div>
+
+      <div class="hp-log-container">
+        <div id="hitLog" class="log-container"></div>
+        <div id="hiveHealthBar"></div>
+      </div>
+    </div>
+    <div class="hive">
+      <div class="bee-group">
+        <h2>👑 Queen</h2>
+        <div id="queenContainer"></div>
+      </div>
+
+      <div class="bee-group">
+        <h2>💼 Workers</h2>
+        <div id="workerContainer"></div>
+      </div>
+
+      <div class="bee-group">
+        <h2>🛫 Drones</h2>
+        <div id="droneContainer"></div>
+      </div>
+    </div>
+
+    <div id="playerNameModal" class="player-modal">
+      <div class="player-modal-content">
+        <h2>Welcome to The Bee Game! 🐝</h2>
+        <p>Please enter your name to start:</p>
+        <input
+          type="text"
+          id="playerNameInput"
+          class="name-input"
+          placeholder="Your name..."
+        />
+        <button id="startGameButton" class="start-game-button">
+          Start Game
+        </button>
+      </div>
+    </div>
+
+    <div id="gameOverModal" class="modal hidden">
+      <div class="modal-content">
+        <h2>Game Over!</h2>
+        <p>All the bees are gone! 🐝💀</p>
+        <button id="playAgainButton" class="modal-button">Play Again</button>
+      </div>
+    </div>
+  </body>
+
+  <script src="./script.js"></script>
+  <!-- Import needed for unit testing -->
+  <!-- <script src="./test.js"></script> -->
+</html>
